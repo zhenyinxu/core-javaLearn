@@ -82,8 +82,8 @@ public class Sms{
 		System.out.println("|	 3.update     ");
 		System.out.println("|	 4.searchById ");
 		System.out.println("|	 5.searchAll  ");
-		System.out.println("|	 help		  ");
-		System.out.println("|	 exit		  ");
+		System.out.println("|	 help         ");
+		System.out.println("|	 exit         ");
 		System.out.println(" -------SMS-------");
 
 	}
