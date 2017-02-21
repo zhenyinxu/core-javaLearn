@@ -34,13 +34,10 @@ public class Sms{
 	//fn3-update()
 	public void update(Student newStu){
 		for(int i=0; i<stus.length; i++){
-			System.out.println("-w-");
 
-			//new 1001-old l001 
 			if(stus[i].getId() == newStu.getId()){
 				stus[i].setName(newStu.getName());
 				stus[i].setAge(newStu.getAge());
-				System.out.println("lol");
 				break;
 
 			}	
@@ -100,6 +97,7 @@ public class Sms{
 			System.out.println("this is your cmd:"+cmd);
 			switch(cmd){
 				case "1":
+					//this "while(true) make my variable become local not global"
 					while(true){
 						System.out.println("please enter like this [id#name#age] or enter [break] to back");
 						String stuStr = scanner.nextLine();
